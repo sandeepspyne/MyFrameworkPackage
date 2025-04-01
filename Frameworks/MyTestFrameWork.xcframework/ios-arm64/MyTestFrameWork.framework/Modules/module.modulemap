@@ -1,0 +1,6 @@
+framework module MyTestFrameWork {
+  umbrella header "MyTestFrameWork.h"
+  export *
+
+  module * { export * }
+}
