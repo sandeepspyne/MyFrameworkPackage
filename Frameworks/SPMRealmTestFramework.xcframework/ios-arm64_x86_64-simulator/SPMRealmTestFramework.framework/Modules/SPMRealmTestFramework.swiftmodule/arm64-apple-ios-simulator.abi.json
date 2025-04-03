@@ -1,0 +1,155 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SPMRealmTestFramework",
+    "printedName": "SPMRealmTestFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SPMRealmTestFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Realm",
+        "printedName": "Realm",
+        "declKind": "Import",
+        "moduleName": "SPMRealmTestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManager",
+        "printedName": "NetworkManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkManager",
+                "printedName": "SPMRealmTestFramework.NetworkManager",
+                "usr": "s:21SPMRealmTestFramework14NetworkManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21SPMRealmTestFramework14NetworkManagerC6sharedACvpZ",
+            "mangledName": "$s21SPMRealmTestFramework14NetworkManagerC6sharedACvpZ",
+            "moduleName": "SPMRealmTestFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkManager",
+                    "printedName": "SPMRealmTestFramework.NetworkManager",
+                    "usr": "s:21SPMRealmTestFramework14NetworkManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21SPMRealmTestFramework14NetworkManagerC6sharedACvgZ",
+                "mangledName": "$s21SPMRealmTestFramework14NetworkManagerC6sharedACvgZ",
+                "moduleName": "SPMRealmTestFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "testFunction",
+            "printedName": "testFunction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21SPMRealmTestFramework14NetworkManagerC12testFunctionyyF",
+            "mangledName": "$s21SPMRealmTestFramework14NetworkManagerC12testFunctionyyF",
+            "moduleName": "SPMRealmTestFramework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showMessage",
+            "printedName": "showMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21SPMRealmTestFramework14NetworkManagerC11showMessageyyF",
+            "mangledName": "$s21SPMRealmTestFramework14NetworkManagerC11showMessageyyF",
+            "moduleName": "SPMRealmTestFramework",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21SPMRealmTestFramework14NetworkManagerC",
+        "mangledName": "$s21SPMRealmTestFramework14NetworkManagerC",
+        "moduleName": "SPMRealmTestFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,6 @@
+framework module SPMRealmTestFramework {
+  umbrella header "SPMRealmTestFramework.h"
+  export *
+
+  module * { export * }
+}

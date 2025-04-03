@@ -14,21 +14,16 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(
-            name: "MyTestFrameWork",
-            path: "Frameworks/MyTestFrameWork.xcframework"
+            name: "SPMRealmTestFramework",
+            path: "Frameworks/SPMRealmTestFramework.xcframework"
         ),
         .target(
             name: "MySwiftPackage",
-            dependencies: ["MyTestFrameWork"],
+            dependencies: ["SPMRealmTestFramework"],
             path: "Sources/MySwiftPackage",
             linkerSettings: [
-                .linkedFramework("MyTestFrameWork", .when(platforms: [.iOS]))
+                .linkedFramework("SPMRealmTestFramework", .when(platforms: [.iOS]))
             ]
-        ),
-        .testTarget(  // Add this section
-            name: "MySwiftPackageTests",
-            dependencies: ["MySwiftPackage"],
-            path: "Tests/MySwiftPackageTests"
         )
     ]
 )
